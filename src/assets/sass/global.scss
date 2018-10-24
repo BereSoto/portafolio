@@ -1,0 +1,30 @@
+/**
+ * En este archivo se integran los aspectos globales que
+ * no dependan de otra parte de otros estilos.
+ */
+
+/* stylelint-disable selector-max-type */
+/* stylelint-disable order/order */
+
+@import 'base/basic';
+@import 'globals/utils';
+
+.is-relative {
+  position: relative;
+}
+
+:root {
+  @each $name, $pair in $colors {
+    --color-#{$name}: #{nth($pair, 1)};
+    --color-#{$name}-invert: #{nth($pair, 2)};
+  }
+}
+
+noscript {
+  position: relative;
+  padding: 1.25rem 2.5rem 1.25rem 1.5rem;
+  color: rgba(0, 0, 0, 0.7);
+
+  background-color: #ffdd57;
+  border-radius: 3px;
+}

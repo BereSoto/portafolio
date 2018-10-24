@@ -1,0 +1,7 @@
+.button {
+  &.is-darkish {
+    color: $white;
+    background: rgba($black, 0.5);
+    border-color: $white;
+  }
+}

@@ -1,0 +1,96 @@
+/**
+ * Archivo base de la aplicacion, todos los estilos deberán ser importados aquí.
+ */
+
+@import 'base/basic';
+
+/**
+ * Importando Bulma
+ */
+
+@import '~bulma/sass/utilities/animations.sass';
+@import '~bulma/sass/utilities/controls.sass';
+
+// Base
+@import '~bulma/sass/base/all';
+
+// Elements
+@import '~bulma/sass/elements/all';
+// @import '~bulma/sass/elements/box.sass';
+// @import '~bulma/sass/elements/button.sass';
+// @import '~bulma/sass/elements/container.sass';
+// @import '~bulma/sass/elements/content.sass';
+// @import '~bulma/sass/elements/form.sass';
+// @import '~bulma/sass/elements/icon.sass';
+// @import '~bulma/sass/elements/image.sass';
+// @import '~bulma/sass/elements/notification.sass';
+// @import '~bulma/sass/elements/progress.sass';
+// @import '~bulma/sass/elements/table.sass';
+// @import '~bulma/sass/elements/tag.sass';
+// @import '~bulma/sass/elements/title.sass';
+// @import '~bulma/sass/elements/other.sass';
+
+// Components
+@import '~bulma/sass/components/all';
+
+// @import '~bulma/sass/components/breadcrumb.sass';
+// @import '~bulma/sass/components/card.sass';
+// @import '~bulma/sass/components/dropdown.sass';
+// @import '~bulma/sass/components/level.sass';
+// @import '~bulma/sass/components/list.sass';
+// @import '~bulma/sass/components/media.sass';
+// @import '~bulma/sass/components/menu.sass';
+// @import '~bulma/sass/components/message.sass';
+// @import '~bulma/sass/components/modal.sass';
+// @import '~bulma/sass/components/navbar.sass';
+// @import '~bulma/sass/components/pagination.sass';
+// @import '~bulma/sass/components/panel.sass';
+// @import '~bulma/sass/components/tabs.sass';
+
+// Grid
+@import '~bulma/sass/grid/all';
+// @import '~bulma/sass/grid/tiles.sass';
+// @import '~bulma/sass/grid/columns.sass';
+
+// Layout
+@import '~bulma/sass/layout/all';
+
+// @import '~bulma/sass/layout/footer.sass';
+// @import '~bulma/sass/layout/hero.sass';
+// @import '~bulma/sass/layout/section.sass';
+
+/**
+* Buefy
+*/
+@import '~buefy/src/scss/buefy';
+// @import '~buefy/src/scss/utils/all';
+// @import '~buefy/src/scss/components/autocomplete';
+// @import '~buefy/src/scss/components/checkbox';
+// @import '~buefy/src/scss/components/collapse';
+// @import '~buefy/src/scss/components/datepicker';
+// @import '~buefy/src/scss/components/dialog';
+// @import '~buefy/src/scss/components/dropdown';
+// @import '~buefy/src/scss/components/form';
+// @import '~buefy/src/scss/components/icon';
+// @import '~buefy/src/scss/components/loading';
+// @import '~buefy/src/scss/components/message';
+// @import '~buefy/src/scss/components/modal';
+// @import '~buefy/src/scss/components/notices';
+// @import '~buefy/src/scss/components/pagination';
+// @import '~buefy/src/scss/components/panel';
+// @import '~buefy/src/scss/components/radio';
+// @import '~buefy/src/scss/components/select';
+// @import '~buefy/src/scss/components/switch';
+// @import '~buefy/src/scss/components/table';
+// @import '~buefy/src/scss/components/tabs';
+// @import '~buefy/src/scss/components/tag';
+// @import '~buefy/src/scss/components/taginput';
+// @import '~buefy/src/scss/components/timepicker';
+// @import '~buefy/src/scss/components/tooltip';
+// @import '~buefy/src/scss/components/upload';
+
+/**
+ * Estilos de dinamo
+ */
+
+@import 'globals/overrides';

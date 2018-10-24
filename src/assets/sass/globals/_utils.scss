@@ -1,0 +1,94 @@
+/**
+ * Utilidades como espaciados y fondos
+ */
+
+.util {
+  &-text {
+    &__dont-break {
+      &--desktop {
+        @include desktop {
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+
+  &-bg {
+    &--blue {
+      background: $blue;
+    }
+  }
+
+  &-space {
+    &__top {
+      &--1x {
+        margin-top: 1rem !important;
+      }
+
+      &--2x {
+        margin-top: 2rem !important;
+      }
+
+      &--3x {
+        margin-top: 3rem !important;
+      }
+    }
+
+    &__bot {
+      &--1x {
+        margin-bottom: 1rem !important;
+      }
+
+      &--2x {
+        margin-bottom: 2rem !important;
+      }
+
+      &--3x {
+        margin-bottom: 3rem !important;
+      }
+    }
+  }
+
+  &-block-center {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &-flex {
+    &__alignself {
+      &--bottom {
+        align-self: flex-end;
+      }
+    }
+
+    &__justifyself {
+      &--end {
+        margin-top: auto;
+        justify-self: flex-end;
+      }
+    }
+
+    &__shrink {
+      flex-shrink: 1 !important;
+      flex-grow: 0 !important;
+    }
+
+    &__grow {
+      flex-shrink: 0 !important;
+      flex-grow: 1 !important;
+    }
+  }
+
+  &-background {
+    background: $red;
+    @each $name, $pair in $colors {
+      $color: nth($pair, 1);
+      $color-invert: nth($pair, 2);
+
+      &--#{$name} {
+        color: $color-invert;
+        background-color: $color;
+      }
+    }
+  }
+}
