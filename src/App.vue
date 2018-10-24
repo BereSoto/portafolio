@@ -10,15 +10,55 @@
       </div>
 
     </section>
-    <section class="section">
-      <h3 class="title is-1">Habilidades</h3>
-      <div class="colums">
+    <section class="section section-tec has-text-white">
+      <h3 class="title is-1 has-text-centered has-text-white ">Habilidades</h3>
+      <div class="columns has-text-centered box-black">
         <div class="column is-6">
-          <h4>Tecnicas</h4>
+          <h4 class="is-size-3 ">Tecnicas</h4>
+            <span class="icon">
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </span>
+            <span class="icon">
+              <i class="fab fa-html5" aria-hidden="true"></i>
+            </span>
+            <span class="icon">
+              <i class="fab fa-css3-alt" aria-hidden="true"></i>
+            </span>
+            <span class="icon">
+              <i class="fab fa-css3-alt" aria-hidden="true"></i>
+            </span>
+        </div>
+        <div class="column is-6">
+          <h4 class="is-size-3">Blandas</h4>
 
         </div>
 
       </div>
+    </section>
+    <section class="section has-text-centered">
+      <h5 class="title is-1">Portafolio</h5>
+      <div class="columns">
+        <div class="column is-4">
+          <h4 class="is-size-4">Blog Platzi</h4>
+          <p>Replica del blog de Platzi</p>
+        </div>
+        <div class="column is-4">
+          <h4 class="is-size-4">Invi guitar</h4>
+          <p>Sitio de venta de guitarras</p>
+        </div>
+        <div class="column is-4">
+          <h4 class="is-size-4">Blog Platzi</h4>
+          <p>Replica del blog de Platzi</p>
+        </div>
+        <div class="column is-4">
+          <a href="https://summerhills.com.mx/"></a>
+          <h4 class="is-size-4">Sumerhills</h4>
+          <p>Trabajo de Agencia</p>
+
+        </div>
+
+      </div>
+
     </section>
   </main>
 </template>
@@ -43,4 +83,9 @@ export default {
   width: 210px;
   border-radius: 100%;
 }
+.section-tec{
+  background:#863588;
+}
+
+
 </style>
