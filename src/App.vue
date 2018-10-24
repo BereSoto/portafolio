@@ -51,13 +51,24 @@
           <p>Replica del blog de Platzi</p>
         </div>
         <div class="column is-4">
-          <a href="https://summerhills.com.mx/"></a>
+
           <h4 class="is-size-4">Sumerhills</h4>
           <p>Trabajo de Agencia</p>
 
         </div>
 
       </div>
+
+    </section>
+    <section class="section section-tec has-text-white ">
+      <h5 class="title is-1 has-text-white has-text-centered">Contactame</h5>
+      <div class="social has-text-centered">
+       <a href="https://twitter.com/Beremusa"><i class="fab fa-twitter"> </i></a>
+       <a href="https://www.facebook.com/Scara.Musa?ref=bookmarks"><i class="fab fa-facebook-square"> </i></a>
+       <a href="https://github.com/BereSoto"><i class="fab fa-github"> </i></a>
+
+      </div>
+
 
     </section>
   </main>
