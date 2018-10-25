@@ -128,7 +128,7 @@
       <div class="social has-text-centered ">
 
        <a class="icon is-medium has-text-black" href="https://twitter.com/Beremusa"><i class="fab fa-twitter fa-2x"> </i></a>
-       <a class="icon is-medium has-text-black" href="ttps://www.facebook.com/Scara.Musa?ref=bookmarks"><i class="fab fa-facebook-square fa-2x"> </i></a>
+       <a class="icon is-medium has-text-black" href="https://www.facebook.com/Scara.Musa?ref=bookmarks"><i class="fab fa-facebook-square fa-2x"> </i></a>
        <a class="icon is-medium has-text-black" href="https://github.com/BereSoto"><i class="fab fa-github fa-2x"> </i></a>
       </div>
 
