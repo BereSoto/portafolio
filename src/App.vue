@@ -40,7 +40,7 @@
           Soy apasionada de las artes y la buena literatura,
          mi meta es seguir desarrodandome en el mundo
           tec, y sobretodo en la experiencia del usuario.
-         Actualemte me encuentro laborando para Dinamo, una agencia
+         Actualmente me encuentro laborando para Dinamo, una agencia
          de comunicación y diseño. Mi principal labor es
          la creación de landing pages y sitios web.</p>
         </div>
