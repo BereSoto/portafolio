@@ -39,7 +39,7 @@
         <p class="is-size-3"> Me encanta la tecnología y lo que puedo aprender con ella.
           Soy apasionada de las artes y la buena literatura,
          mi meta es seguir desarrodandome en el mundo
-          tec, y sobretodo en la experiencia del usuario.
+          tech, y sobretodo en la experiencia del usuario.
          Actualmente me encuentro laborando para Dinamo, una agencia
          de comunicación y diseño. Mi principal labor es
          la creación de landing pages y sitios web.</p>
@@ -91,7 +91,7 @@
             <li>Autodidacta</li>
             <li>Solución de conflictos</li>
             <li>Trabajo en equipo</li>
-            <li>Comunicacion acertiva</li>
+            <li>Comunicación acertiva</li>
                 </ul>
 
 
@@ -127,9 +127,9 @@
       <h5 class="title is-1 has-text-centered">Contáctame</h5>
       <div class="social has-text-centered ">
 
-       <a class="icon is-medium has-text-black" href="https://twitter.com/Beremusa"><i class="fab fa-twitter fa-2x"> </i></a>
-       <a class="icon is-medium has-text-black" href="https://www.facebook.com/Scara.Musa?ref=bookmarks"><i class="fab fa-facebook-square fa-2x"> </i></a>
-       <a class="icon is-medium has-text-black" href="https://github.com/BereSoto"><i class="fab fa-github fa-2x"> </i></a>
+       <a target="__blank" class="icon is-medium has-text-black" href="https://twitter.com/Beremusa"><i class="fab fa-twitter fa-2x"> </i></a>
+       <a target="__blank" class="icon is-medium has-text-black" href="https://www.facebook.com/Scara.Musa?ref=bookmarks"><i class="fab fa-facebook-square fa-2x"> </i></a>
+       <a  target="__blank" class="icon is-medium has-text-black" href="https://github.com/BereSoto"><i class="fab fa-github fa-2x"> </i></a>
       </div>
 
 
