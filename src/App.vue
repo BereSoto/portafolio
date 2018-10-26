@@ -181,7 +181,7 @@ export default {
 }
 
 .col-gray{
-  background: #F0EFFA ;
+  background: rgba(240, 239, 250, .5) ;
 
 }
 
